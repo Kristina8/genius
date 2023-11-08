@@ -1,0 +1,158 @@
+/* -------- FONTS -------- */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-cyrillic_latin-regular.woff2") format("woff2"),
+    url("../fonts/roboto-v30-cyrillic_latin-regular.ttf") format("truetype");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-weight: 500;
+  src: url("../fonts/roboto-v30-cyrillic_latin-500.woff2") format("woff2"),
+    url("../fonts/roboto-v30-cyrillic_latin-500.ttf") format("truetype");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-weight: 400;
+  src: url("../fonts/play-v19-cyrillic_latin-regular.woff2") format("woff2"),
+    url("../fonts/play-v19-cyrillic_latin-regular.ttf") format("truetype");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-weight: 700;
+  src: url("../fonts/play-v19-cyrillic_latin-700.woff2") format("woff2"),
+    url("../fonts/play-v19-cyrillic_latin-700.ttf") format("truetype");
+}
+/* -------- /FONTS -------- */
+
+/* -------- VARIABLES -------- */
+:root {
+  --color-brand-light: #2b7fff;
+  --color-brand-dark: #011c44;
+  --color-text-light: #ffffff;
+}
+/* -------- /VARIABLES -------- */
+
+/* -------- BASE -------- */
+
+body {
+  color: var(--color-brand-dark);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: calc(21 / 18);
+}
+address {
+  font-style: normal;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* -------- /BASE -------- */
+
+.header-link:hover {
+  font-weight: 600;
+  color: var(--color-brand-light);
+}
+.hero-title {
+  color: var(--color-brand-light);
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 140px;
+  line-height: calc(114 / 140);
+  text-transform: capitalize;
+}
+.hero-btn {
+  color: var(--color-text-light);
+  font-weight: 500;
+  text-align: center;
+  background-color: var(--color-brand-light);
+  padding: 16px 32px;
+  border-radius: 32px;
+  cursor: pointer;
+}
+.hero-desc {
+  font-size: 12px;
+  line-height: calc(18 / 12);
+  text-align: center;
+  color: #4a4a4a;
+}
+.section-title {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: calc(74 / 64);
+}
+.section-title .capitalize {
+  text-transform: capitalize;
+  text-align: left;
+}
+.section-title span {
+  color: var(--color-brand-light);
+  text-align: center;
+}
+.about-text {
+  font-size: 22px;
+  line-height: calc(38 / 22);
+}
+.about-text span {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.advantages-list {
+  line-height: calc(24 / 18);
+  text-align: center;
+  color: #000000;
+}
+.procedures-list {
+  color: var(--color-text-light);
+  text-align: center;
+  font-style: 22px;
+  line-height: calc(26 / 22);
+}
+.form-title {
+  color: var(--color-text-light);
+  font-weight: 500;
+  text-align: center;
+  font-size: 22px;
+  line-height: calc(26 / 22);
+}
+.form-title span {
+  color: var(--color-brand-light);
+}
+.form-btn {
+  border-style: none;
+  color: var(--color-text-light);
+  font-weight: 500;
+  background-color: var(--color-brand-light);
+  border-radius: 32px;
+  padding: 16px 32px;
+}
+.form-desc {
+  color: #747272;
+  font-size: 12px;
+  text-align: center;
+  line-height: calc(18 / 12);
+}
+.footer {
+  color: var(--color-text-light);
+  font-size: 16px;
+  line-height: calc(19 / 16);
+}
+.footer-link {
+  color: var(--color-text-light);
+}
+.footer-link:hover {
+  font-weight: 600;
+  color: var(--color-brand-light);
+}
+.copy {
+  color: #747272;
+}
